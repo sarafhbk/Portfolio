@@ -1,0 +1,248 @@
+@media(min-width:750px) {
+    .about_text{
+        right: 1%;
+    }
+    .box{
+        width: 85%;
+    }
+    .main_img_container img{
+        width: 25%;
+    }
+    .ml11{
+font-size: 2.3em;
+    }
+    .ml10{
+      font-size: 2.8em;
+    }
+    
+    .myposition div{
+      margin-top: 0px;
+    }
+
+    .about_text{
+      right: -40px;
+    }
+    .bag_text{
+      left: -80px;
+    }
+    .socialwrapper {
+      display: none;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    }
+    @media(max-width:599px) {
+      .myposition{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        grid-row-gap: 100%;
+      
+      }
+
+
+
+
+    }
+    @media(min-width:600px) and (max-width:950px) {
+      .socialwrapper ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+      }
+      .socialwrapper ul li {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        margin: 10px 10px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 5px solid black;
+        float: left;
+        /*transition: all 0.5s ease;*/
+      }
+      .appimgwrapper .ngblog{
+        position: relative;
+        width: 120%;
+      }
+      .appimgwrapper .gif{
+        position: relative;
+        width: 38%;
+    
+      }
+      .appimgwrapper{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 50% 50%;
+          }
+    }
+
+
+    @media(min-width: 951px) {
+      .appimgwrapper{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 50% 50%;
+          }
+          .appimgwrapper .ngblog{
+            position: relative;
+            width: 120%;
+          }
+          .appimgwrapper .gif{
+            position: relative;
+            width: 38%;
+        
+          }
+      .ml12{
+        font-weight: 200;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+    
+      }
+      .ml12_2{
+      font-weight: 200;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 0.5em;
+    
+    }
+    .ml12_3{
+      font-weight: 200;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 0.5em;
+    
+    }
+      .socialwrapper ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+      }
+      .socialwrapper ul li {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        margin: 10px 30px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 5px solid black;
+        float: left;
+        /*transition: all 0.5s ease;*/
+      }
+    }
+    @media(min-width:600px){
+      .about_para{
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+      }
+      .about_para img{
+        width: 50px;
+        padding: 2%;
+      }
+
+      .bag p{
+        font-size: 14px;
+        font-weight: 300; 
+      }
+
+      .column {
+        display: grid;
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .column img {
+      width: 100%;
+    }
+
+
+    }
+    @media (min-width:435px) and (max-width: 600px){
+      .column {
+        display: grid;
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+        grid-template-columns: 100%;
+    }
+      .column img {
+        margin-left: 15%;
+        width: 70%;
+      }
+    }
+    @media (min-width:600px) and (max-width: 749px) {
+        .box{
+            width: 85%;
+        } 
+        .main_img_container img{
+            width: 35%;
+        }
+    }
+
+
+        @media screen and (min-width:320px) and (max-width:480px) and (orientation: portrait){
+         .box .myposition div{
+            margin-top: 3px;
+          }
+         .box .contact_page .socialwrapper ul li {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin: 10px 30px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 5px solid black;
+            float: left;
+            /*transition: all 0.5s ease;*/
+          }
+          .socialwrapper ul li .fab {
+            color: black;
+            position: relative;
+            top: 5%;
+            font-size: 16px;
+            /*transition: all 0.5s ease;*/
+          }
+    }
+@media (min-width:1500px) {
+  .ml10{
+    font-size: 4em; 
+  }
+  .ml11{
+    font-size: 4.8em; 
+  }
+  .nav_link{
+    font-size: 24px;
+  }
+  .ml12,.ml12_2,.ml12_3{
+    font-size: 1.3em;
+  }
+  header img{
+    width: 150px;
+  }
+  .about_para{
+    font-size: 1.3em;
+    line-height: 3.4em;
+  }
+  .about_para img{
+    width: 8%;
+  }
+  .bag p{
+font-size: 24px;
+  }
+  .applications{
+    font-size: 24px;
+  }
+}

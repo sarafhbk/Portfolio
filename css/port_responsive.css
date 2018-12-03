@@ -1,0 +1,37 @@
+@media (min-width: 600px) {
+    h1{
+        font-size: 30px;
+        letter-spacing: 5px;
+       }
+    .designs_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+    }
+    .websites_container main{
+        padding: 10% 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .website_container2{
+        margin-top: 0px; 
+    }
+    
+.app_container main .text_container{
+    margin: 0 auto;
+}
+.app_container img{
+    margin-top: 80px;
+}
+    .app_container main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+    .app_container,.websites_container,.designs_container{
+        padding:  0;
+    }
+    .app_container .text_container{
+        padding: 15% 0;
+    }
+
+}
